@@ -5,7 +5,8 @@ from setuptools import setup, find_packages
 # installation requirements
 install_requires = [
     'pystra',
-    'matplotlib'
+    'matplotlib',
+    'ipywidgets<8'
 ]
 
 setup(
